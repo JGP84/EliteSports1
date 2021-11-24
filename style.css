@@ -16,7 +16,6 @@ h1 {
   letter-spacing: -6px;
   margin-left: 10%;
   margin-bottom: 60px;
-
   text-shadow: 1px 1px 12px black;
 }
 
@@ -24,6 +23,7 @@ article {
   position: absolute;
   bottom: 60px;
 }
+
 time {
   color: #fff;
   font-size: 30px;
@@ -36,6 +36,5 @@ p {
   width: 80%;
   margin: 18px auto 0 auto;
   padding: 25px;
-
   box-shadow: 0 0 10px 1px grey;
 }
