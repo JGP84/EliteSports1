@@ -7,13 +7,6 @@
     <title>Exercise 1</title>
 
     <link href="style.css" rel="stylesheet" />
-    <script type="text/javascript">
-      const timeElapsed = Date.now();
-      const today = new Date(timeElapsed);
-      const date = today.toDateString();
-
-      document.getElementById("date-time").innerHTML = "[" + date + "]";
-    </script>
   </head>
   <body>
     <article>
@@ -30,4 +23,11 @@
       </p>
     </article>
   </body>
+  <script type="text/javascript">
+    const timeElapsed = Date.now();
+    const today = new Date(timeElapsed);
+    const date = today.toDateString();
+
+    document.getElementById("date-time").innerHTML = "[" + date + "]";
+  </script>
 </html>
