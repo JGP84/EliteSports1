@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise 1</title>
+
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <article>
+      <h1>Hello Lion</h1>
+      <time id="date-time">date</time>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit
+        voluptatibus dolor enim molestiae consequatur odio! Voluptate nam
+        explicabo porro nulla, deserunt, quasi odit harum quas cum vitae officia
+        labore expedita! Lorem, ipsum dolor sit amet consectetur adipisicing
+        elit. Suscipit, laudantium animi. Aut in velit quo commodi omnis nihil
+        neque? Quibusdam molestiae ut harum error totam est, voluptate sunt illo
+        laboriosam.
+      </p>
+    </article>
+  </body>
+  <script>
+    const timeElapsed = Date.now();
+    const today = new Date(timeElapsed);
+
+    var date = today.toDateString(); // "Sun Jun 14 2020"
+
+    document.getElementById("date-time").innerHTML = "[" + date + "]";
+  </script>
+</html>
